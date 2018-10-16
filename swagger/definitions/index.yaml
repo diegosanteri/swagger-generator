@@ -1,0 +1,6 @@
+$include: ./ApiResponse.yaml
+$include: ./Category.yaml
+$include: ./Order.yaml
+$include: ./Pet.yaml
+$include: ./Tag.yaml
+$include: ./User.yaml

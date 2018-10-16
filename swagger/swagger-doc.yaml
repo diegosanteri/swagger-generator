@@ -1,0 +1,28 @@
+swagger: '2.0'
+info:
+  $include: ./info/index.yaml
+host: petstore.swagger.io
+basePath: /v2
+tags:
+  - name: pet
+    description: Everything about your Pets
+    externalDocs:
+      description: Find out more
+      url: 'http://swagger.io'
+  - name: store
+    description: Access to Petstore orders
+  - name: user
+    description: Operations about user
+    externalDocs:
+      description: Find out more about our store
+      url: 'http://swagger.io'
+schemes:
+  - https
+  - http
+paths:
+ $include: ./paths/index.yaml
+definitions:
+  $include: ./definitions/index.yaml
+externalDocs:
+  description: Find out more about Swagger
+  url: 'http://swagger.io'

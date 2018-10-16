@@ -1,0 +1,18 @@
+{
+  "name": "swagger-generator",
+  "version": "2.2.0",
+  "description": "Let's generate your swagger api and client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "app-root-dir": "^1.0.2",
+    "commander": "^2.9.0",
+    "js-yaml": "^3.9.1",
+    "json-refs": "^2.1.6",
+    "yaml-js": "^0.2.3",
+    "yamlinc": "^0.1.5"
+  }
+}

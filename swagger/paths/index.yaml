@@ -1,0 +1,3 @@
+$include: ./pet.yaml
+$include: ./store.yaml
+$include: ./user.yaml
